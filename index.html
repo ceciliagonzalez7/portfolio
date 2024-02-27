@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title> Portfolio Cecilia Gonzalez </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ceci</a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#habilidades " onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CV</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/icon.png" alt="">
+            </div>
+            <h1> Cecilia Gonzalez</h1>
+                <h3> Desarrollo Web Front-end - Diseño UI/UX</h3>
+                <p>Estudiante de la Tecnicatura Universitaria de Higiene y Seguridad en el trabajo.</p>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/cecilia-gonzalez-cog/"><i class="fa-brands fa-linkedin"></i></a>
+
+                <a href="https://github.com/ceciliagonzalez7"><i class="fa-brands fa-github"></i></a>
+
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi" class="sobremi">
+
+        <div class="contenido-seccion">
+
+            <h2>SOBRE MI:</h2>
+            <p> 
+            <span> Hola! Soy Cecilia,</span> 
+            te saludo desde Buenos Aires, Argentina.  Con 25 años de edad, mi pasión por la tecnología y la creatividad me ha llevado a convertirme en desarrolladora web front-end, también tengo un interés profundo en el diseño UX donde encuentro la perfecta fusión entre funcionalidad y estética. Actualmente, estoy ampliando mis horizontes estudiando una tecnicatura universitaria en higiene y seguridad en el trabajo, donde busco combinar mis habilidades técnicas con mi deseo de contribuir a entornos laborales seguros y saludables. En resumen, mi objetivo va más allá de escribir código impecable o diseñar interfaces elegantes. Es sobre crear un impacto positivo, tanto en el mundo digital como en la vida real, y construir un futuro donde la tecnología no solo sea innovadora, sino también inclusiva y segura para todos. </p>
+
+            <div class="col">
+                <h3> Intereses</h3>
+
+                <div class="contenedor-intereses">
+
+                    <div class="interes">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        <span>LEER</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-scissors"></i>
+                        <span>MANUALIDADES</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-palette"></i>                        <span>PINTAR</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <span>INVESTIGAR</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>VIDEOJUEGOS</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <span>NADAR</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-code"></i>
+                        <span>CODE</span>
+                    </div>
+
+                    <div class="interes">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <span>CONECTAR</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+        <div class="contenido-seccion">
+            <h2> HABILIDADES </h2>
+            <div class="fila">
+                <div class="col">
+                    <h3> Habilidades Tecnicas: </h3>
+
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Figma</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3> Habilidades Blandas: </h3>
+
+                    <div class="skill">
+                        <span>Trabajo En Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span> Empatia </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación y Cursos:</h3>
+
+                    <div class="item izq">
+                        <h4>Tecnicatura Universitaria en Hiegiene y Seguridad en el trabajo.</h4>
+                        <span class="casa">Universidad Tecnológica  Nacional</span>
+                        <span class="fecha">En Curso</span>
+                        <p> La razón principal por la que estudio higiene y seguridad en el trabajo es para proteger la salud y el bienestar de las personas en el entorno laboral, previniendo accidentes, enfermedades ocupacionales y promoviendo condiciones de trabajo seguras.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Curso de Diseño UX/UI</h4>
+                        <span class="casa">Coderhouse</span>
+                        <span class="fecha">En Curso</span>
+                        <p> Contenidos: UX writing, UX research, metodologías de diseño. Es una exelente oportunidad para seguir ampliando mis conocimientos en diseño web.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Desarrollador  Web</h4>
+                        <span class="casa">Argentina Programa</span>
+                        <span class="fecha">(Marzo 2023 - Diciembre 2023)</span>
+                        <p> Programación Web Front-end
+                            Contenidos: Lógica de la programación, HTML, CSS y Javascript (React JS)
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Introducción al Diseño UX/UI</h4>
+                        <span class="casa">Chicas en tecnologia</span>
+                        <span class="fecha">(Septiembre 2022 - Noviembre 2022)</span>
+                        <p> Contenidos: Prototipado en Figma, UX Research, UX Writing
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Bootcamp Programación ONE</h4>
+                        <span class="casa"> Alura Latam Oracle</span>
+                        <span class="fecha">(Julio 2022 - Febrero 2023)</span>
+                        <p> Programacion full stack: Html, Css, Javascript, Node.js, Java.
+                        Ademas de diversos cursos de Soft-Skills.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Introducción a la Programación Front-End</h4>
+                        <span class="casa">Chicas en tecnologia</span>
+                        <span class="fecha">(Mayo 2022 - Noviembre 2022)</span>
+                        <p> Contenidos: Introducción a la programación, HTML, CSS, JavaScript.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3> Experiencia Laboral:</h3>
+
+                    <div class="item der">
+                        <h4>Apoyo escolar</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">(Marzo 2020 - Diciembre 2022)</span>
+                        <p>grupo de 10 alumnos entre 6 a 14 años 
+                        para impartir lecciones de refuerzo en las materias de: 
+                        Matemáticas, Lengua, Ciencias Sociales e Inglés. Diseño de recursos y materiales específicos. Clases sincrónicas por medio de la plataforma Zoom. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Atención al cliente / Cajera</h4>
+                        <span class="casa">Supermercado</span>
+                        <span class="fecha">(Marzo 2021 - Septiembre 2022)</span>
+                        <p> Trabajé en un supermercado desempeñando 
+                        funciones de atención al cliente y cajera. 
+                        Mis responsabilidades incluyeron la resolución 
+                        de dudas y quejas de los clientes, 
+                        así como la reposición de mercadería 
+                        para mantener los estantes abastecidos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Atención al público</h4>
+                        <span class="casa">Kiosco</span>
+                        <span class="fecha">(Febreo 2018 - Marzo 2020)</span>
+                        <p> Me desempeñe en un comercio
+                            independiente donde me encargaba
+                            de la atención al público, 
+                            el control de stock y el manejo
+                            de posnet para realizar transacciones 
+                           de pago.                           
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+
+                <div class="proyecto">
+                    <img src="img/p1.png" alt="">
+                    <div class="overlay">
+                        <h3> Landing Page</h3>
+                        <p> Modelo de landing page responsive, usando HTML y CSS</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p2.png" alt="">
+                    <div class="overlay">
+                        <h3> Cronómetro Simple</h3>
+                        <p> Uno de mis primeros proyectos de practicas, un simple cronómetro que esta hecho con HTML, CSS y JS</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/p3.png" alt="">
+                    <div class="overlay">
+                        <h3> Juego Ahorcado</h3>
+                        <p> Primer version del juego, todavia falta pulir. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Telefóno Celular">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <div class="col">
+                    <img src="img/ubicacion.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li> <i class="fa-solid fa-location-dot"></i> 
+                            Buenos Aires, Argentina.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://linkedin.com/in/cecilia-gonzalez-cog/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ceciliagonzalez7"><i class="fa-brands fa-github"></i></a>
+            <a href="CV-CeciliaGonzalez.pdf"><i class="fa-solid fa-download"> CV</i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
