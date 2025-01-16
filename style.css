@@ -2,10 +2,10 @@
 
 :root{
      --white: #faf2e8;
-     --black: #262523;
-     --main: rgb(245, 131, 165);
-     --second: #ffcb59;
-     --third: #4b2245;
+     --black: #50413D;
+     --main: #D0A89E;
+     --second: #81c4c3;
+     --third: #92979e;
 }
 
 *{
